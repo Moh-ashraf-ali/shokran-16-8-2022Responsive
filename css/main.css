@@ -586,6 +586,18 @@ color: #616161 ;
             border: 1px solid #ada7a7 ;
             border-radius: 5px;
         }
+        .contact .row .contact-form .message>button{
+            margin-top: 10px;
+            background-color: #f3a202;
+            padding: 5px 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        border: 3px solid #f3a202;
+        border-radius: 40px;
+        margin-left: 36%;
+        }
 /* end contact section */
 .last-sec{
     width: 90%;
@@ -883,6 +895,21 @@ padding-top: 20px;
 
 }
 /* end brand */
+.contact{
+    width: 100%;
+}
+.contact .contact-h1 h1::before{
+    width: 30%;
+    top: 121%;
+    left: 35%;
+
+}
+.contact .contact-h1 h1::after{
+    width: 8%;
+    top: 120%;
+    left: 46%;
+}
+
 .contact .row{
 margin: auto;
     justify-content: space-between;
@@ -921,7 +948,9 @@ flex-direction: column;
     flex-direction: column;
 
 }
-
+.contact .row .contact-form .row1 .email{
+    padding-left: 15px;
+}
 .contact .row .contact-form .row1 .email>label{
 font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -935,7 +964,10 @@ color: #616161 ;
     border-radius: 5px;
     margin-top: 5px;
 }
+.contact .row .contact-form .row1 .name{
+    padding-left: 15px;
 
+}
 .contact .row .contact-form .row1 .name>label{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -951,7 +983,7 @@ color: #616161 ;
 
     }
     .contact .row .contact-form .message{
-        padding-left: 0px;
+        padding-left: 15px;
         margin-top: 10px;
     }
     .contact .row .contact-form .message>label{
