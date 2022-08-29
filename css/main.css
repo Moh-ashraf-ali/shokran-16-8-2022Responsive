@@ -661,8 +661,22 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f3a202;
     text-decoration: none;
 }
+/*  */
+.gotohome{
+    background-color: #f3a202 ;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 15px;
 
-
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
 
 
 
